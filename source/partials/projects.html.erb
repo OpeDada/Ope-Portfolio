@@ -1,0 +1,22 @@
+<div class="wrapper-white py-2">
+  <div id="projects">
+    <h2>Projects</h2>
+    <div class="card-container" style="padding: 48px;margin-bottom: 0">
+      <ul class="nav tabs-underlined" id="myTab" role="tablist">
+        <% data.products.each_with_index do |product, index| %>
+          <li class="nav-item" role="presentation">
+            <a class="<%= "active" if index.zero?  %> tab-underlined" id="tab-<%= index %>" data-toggle="tab" href="#content-<%= index %>" role="tab" aria-controls="home" aria-selected="true"><%= product.name %></a>
+          </li>
+        <% end %>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <% data.products.each_with_index do |product, index| %>
+          <div class="tab-pane fade py-3 show active" id="content-<%= index %>" role="tabpanel" aria-labelledby="home-tab">
+            <%# <%= image_tag product.image %>
+            <p><%= product.description %></p>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

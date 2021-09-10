@@ -1,20 +1,19 @@
 <div class="wrapper-white">
-  <div class="row">
-    <div class="col-12">
-      <div class="main-container" id="contact" style="padding: 48px;margin-bottom: 0">
-        <div class="navigation-buttons d-flex justify-content-center">
-          <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
-            <i class="fas fa-envelope" style="font-size: 28px;"></i>
-            <%= mail_to "opedada@gmail.com", "", class: 'navigation-button-link' %>
-          </div>
-          <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
-            <i class="fab fa-github-square" style="font-size: 28px;"></i>
-            <%= link_to "", "https://github.com/OpeDada", target: '_blank', class: 'navigation-button-link' %>
-          </div>
-          <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
-            <i class="fab fa-linkedin" style="font-size: 28px;"></i>
-            <%= link_to "", "https://www.linkedin.com/in/opemipo-dada/", target: '_blank', class: 'navigation-button-link' %>
-          </div>
+  <div id="contact">
+    <h2>Contact</h2>
+    <div class="card-container" style="padding: 48px;">
+      <div class="navigation-buttons d-flex justify-content-center">
+        <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
+          <i class="fas fa-envelope" style="font-size: 28px;"></i>
+          <%= mail_to "opedada@gmail.com", "", class: 'navigation-button-link' %>
+        </div>
+        <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
+          <i class="fab fa-github-square" style="font-size: 28px;"></i>
+          <%= link_to "", "https://github.com/OpeDada", target: '_blank', class: 'navigation-button-link' %>
+        </div>
+        <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
+          <i class="fab fa-linkedin" style="font-size: 28px;"></i>
+          <%= link_to "", "https://www.linkedin.com/in/opemipo-dada/", target: '_blank', class: 'navigation-button-link' %>
         </div>
       </div>
     </div>

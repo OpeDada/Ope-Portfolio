@@ -1,9 +1,11 @@
 <div class="wrapper-white">
-  <div class="col-12">
-    <div class="main-container" id="about">
-      <h2>About Me</h2>
-      <p>I'm a full stack web developer based in Tokyo, Japan. Originally from Nigeria, my carrer background is in Logistics and Business development</p>
-      <%= image_tag "profile.jpeg", alt: "alttext", style: 'width:100%' %>
+  <div id="about">
+    <h2>About Me</h2>
+    <div class="card-container d-flex" style="padding: 48px;margin-bottom: 0">
+      <%= image_tag "profile.jpeg", alt: "alttext", class: 'avatar-bordered' %>
+      <div class="text mx-4">
+        <p>I'm a full stack web developer based in Tokyo, Japan. Originally from Nigeria, my carrer background is in Logistics and Business development</p>
+      </div>
     </div>
   </div>
 </div>
