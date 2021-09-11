@@ -1,4 +1,36 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: Safe Spaces
+  description: A web app designed for a community of women to support each other. It connects women walking home alone at night with female homeowners who have voluntered their place as a safe space. Kindly feel free to sign up and have a look around.
+  url: https://www.safespacesjp.com/
+  tags:
+    - devicon-rails-plain-wordmark colored
+    - devicon-postgresql-plain-wordmark colored
+    - devicon-heroku-original colored
+    - devicon-javascript-plain colored
+    - devicon-css3-plain colored
+    - devicon-html5-plain colored
+    - devicon-trello-plain colored
+    - devicon-github-original colored
+
+- name: Fam Finder
+  description: A rental service app clone of Airbnb where people can offer their services as a family member for rent, hence there is a renter and a rentee.
+  image: Capa.jpg
+  url: https://fam-finder.herokuapp.com
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+    - devicon-css3-plain
+    - devicon-html5-plain
+    - devicon-github-original
+
+- name: Playlist
+  description: A rails app where you can create a playlist and add music to the playlist.
+  image: playfig.png
+  url: https://ope-watchlist-app.herokuapp.com
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-css3-plain
+    - devicon-html5-plain
+    - devicon-github-original

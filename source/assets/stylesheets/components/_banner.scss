@@ -1,0 +1,40 @@
+.banner {
+  height: 100vh;
+  color:darkslateblue;
+  justify-content: center;
+  h3 {
+    margin-top: 16px;
+  }
+}
+
+.title-main {
+  margin: 0 auto;
+  &:after {
+    background: #dddddd;
+    content: '';
+    display: block;
+    height: 2px;
+    margin: 0.25em auto 0 auto;
+    position: relative;
+    width: 4em;
+  }
+}
+
+.navigation-button {
+  padding: 0 16px;
+  position: relative;
+  font-size: 20px;
+  margin-top: 32px;
+  color: rgb(77, 76, 76);;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.navigation-button-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

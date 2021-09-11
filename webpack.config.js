@@ -18,7 +18,7 @@ module.exports = {
       },
       {
         test: /\.(sa|sc|c)ss$/,
-        use: ['style-loader', 'css-loader', 'sass-loader']
+        use: ['style-loader', 'css-loader', 'sass-loader', 'postcss-loader']
       },
       {
         test: /\.css$/,
@@ -27,18 +27,18 @@ module.exports = {
     ]
   },
 
-  optimization: { 
-    minimize: true, 
-    minimizer: [ 
-      new TerserPlugin({ 
-        cache: true, 
-        parallel: true, 
-        terserOptions: { 
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        cache: true,
+        parallel: true,
+        terserOptions: {
           output: {
             comments: false
           }
         }
-      }), 
+      }),
     ]
   }
 };
