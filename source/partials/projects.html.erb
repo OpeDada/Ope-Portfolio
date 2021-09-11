@@ -19,6 +19,7 @@
                 <%= image_tag product.image, class: "pic" %>
               <% end %>
               <div class="pl-3">
+                <h3><strong>Role:</strong> <%= product.role %></h3>
                 <p><%= product.description %></p>
                 <div class="card-tags">
                   <% product.tags.each do |tag| %>
