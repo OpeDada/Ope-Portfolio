@@ -17,6 +17,10 @@
 // @import "tailwindcss/components";
 // @import "tailwindcss/utilities";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   // background-color:  #F8DDEB;
    background-image: url('/assets/images/fabric.png');
