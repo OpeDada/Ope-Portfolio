@@ -1,28 +1,36 @@
 .card-container {
-    background-color: rgb(245, 245, 245);
-    border-radius: 5px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
   align-items: center;
+  justify-content: center;
   box-shadow:0 0 15px rgba(0,0,0,0.2);
 
-
-  p {
+  .text {
     font-size: 18px;
-    color: rgb(77, 76, 76);
+    // color: rgb(77, 76, 76);
+    color: #001640;
+
   }
 }
 
-.wrapper-white {
-  background: radial-gradient(circle, rgba(238,174,202,0.12788865546218486) 0%, rgba(148,153,233,0.14189425770308128) 100%);  padding: 24px;
+// .wrapper-white {
+//   background: radial-gradient(circle, rgba(238,174,202,0.12788865546218486) 0%, rgba(148,153,233,0.14189425770308128) 100%);  padding: 24px;
 
-  box-shadow:0 0 15px rgba(0,0,0,0.2);
-  margin-bottom: 24px;
-  border-radius: 5px;
-  padding: 8px;
+//   box-shadow:0 0 15px rgba(0,0,0,0.2);
+//   margin-bottom: 24px;
+//   border-radius: 5px;
+//   padding: 8px;
 
 
 h2 {
   font-weight: bolder;
   color: darkslateblue;
   padding: 3px;
+  text-align: center;
+  margin-top: 24px;
 }
-}
+// }
+
+.text {
+ padding-left: 16px;
+  }

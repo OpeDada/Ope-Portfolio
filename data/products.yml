@@ -11,6 +11,7 @@
     - devicon-html5-plain colored
     - devicon-trello-plain colored
     - devicon-github-original colored
+  timeline: Two weeks
 
 - name: Fam Finder
   role: Project Manager
@@ -18,13 +19,14 @@
   image: Capa.jpg
   url: https://fam-finder.herokuapp.com
   tags:
-    - devicon-rails-plain-wordmark
-    - devicon-postgresql-plain-wordmark
-    - devicon-heroku-original
-    - devicon-javascript-plain
-    - devicon-css3-plain
-    - devicon-html5-plain
-    - devicon-github-original
+    - devicon-rails-plain-wordmark colored
+    - devicon-postgresql-plain-wordmark colored
+    - devicon-heroku-original colored
+    - devicon-javascript-plain colored
+    - devicon-css3-plain colored
+    - devicon-html5-plain colored
+    - devicon-github-original colored
+  timeline: One week
 
 - name: Playlist
   role: Lead Developer
@@ -32,8 +34,9 @@
   image: playfig.png
   url: https://ope-watchlist-app.herokuapp.com
   tags:
-    - devicon-rails-plain-wordmark
-    - devicon-postgresql-plain-wordmark
-    - devicon-css3-plain
-    - devicon-html5-plain
-    - devicon-github-original
+    - devicon-rails-plain-wordmark colored
+    - devicon-postgresql-plain-wordmark colored
+    - devicon-css3-plain colored
+    - devicon-html5-plain colored
+    - devicon-github-original colored
+  timeline: Two days

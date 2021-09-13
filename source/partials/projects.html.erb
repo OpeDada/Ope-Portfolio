@@ -1,7 +1,7 @@
 <div class="wrapper-white py-2">
   <div id="projects">
     <h2>Projects</h2>
-    <div class="card-container" style="padding: 20px;margin-bottom: 0">
+    <div class="card-container" style="padding: 35px;margin-bottom: 0">
       <ul class="nav tabs-underlined" id="myTab" role="tablist">
         <% data.products.each_with_index do |product, index| %>
           <li class="nav-item" role="presentation">
@@ -12,23 +12,27 @@
       <div class="tab-content" id="myTabContent">
         <% data.products.each_with_index do |product, index| %>
           <div class="tab-pane fade py-3 <%= "show active" if index.zero?  %>" id="content-<%= index %>" role="tabpanel" aria-labelledby="home-tab">
-            <div class="d-flex">
+            <div class="pro d-flex">
               <% if index.zero? %>
                 <%= partial 'partials/carouselss' %>
               <% else %>
                 <%= image_tag product.image, class: "pic" %>
               <% end %>
-              <div class="pl-3">
-                <h3><strong>Role:</strong> <%= product.role %></h3>
+              <div class="text">
+                <h5><strong>Role:</strong> <%= product.role %></h5>
                 <p><%= product.description %></p>
+                <br>
+                <hr>
+                <br>
                 <div class="card-tags">
-                  <% product.tags.each do |tag| %>
-                    <span><i class="<%= tag %>"></i></span>
-                  <% end %>
+                  <p><strong>Tools used:</strong> <% product.tags.each do |tag| %>
+                      <span><i class="<%= tag %>"></i></span>
+                    <% end %></p>
                 </div>
-                <% link_to product.url, class: 'external-link', target: '_blank' do %>
-                  <i class="fas fa-external-link-alt"></i>
+                <p><strong>Link to the website:</strong> <% link_to product.url, class: 'external-link', target: '_blank' do %>
+                    <i class="fas fa-external-link-alt"></i></p>
                 <% end %>
+                <p><strong>Timeline:</strong> <%= product.timeline %></p>
               </div>
             </div>
           </div>
