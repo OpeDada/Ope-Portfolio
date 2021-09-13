@@ -23,8 +23,8 @@ html {
 
 body {
   // background-color:  #F8DDEB;
-   background-image: url('/assets/images/fabric.png');
-
+  background-color:  #FFF4ED;
+  //  background-image: url('/assets/images/fabric.png');
 }
 
 
@@ -40,6 +40,7 @@ iframe {
   .container {
     width: 700px;
   }
+
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
@@ -47,7 +48,24 @@ iframe {
     width: 500px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 767px) {
   /* For a screen < 540px, this CSS will be read */
-
+.card-container {
+  flex-direction: column;
+}
+.text {
+  padding-left: 0;
+  padding-top: 2rem;
+}
+.pro {
+  flex-wrap: wrap;
+  justify-content: center;
+h5, p {
+  text-align: center;
+}
+}
+.pic {
+  width: 100%;
+  height: 100%;
+}
 }
