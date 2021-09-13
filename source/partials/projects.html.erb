@@ -18,17 +18,20 @@
               <% else %>
                 <%= image_tag product.image, class: "pic" %>
               <% end %>
-              <div class="pl-3">
-                <h3><strong>Role:</strong> <%= product.role %></h3>
+              <div class="text">
+                <h5><strong>Role:</strong> <%= product.role %></h5>
                 <p><%= product.description %></p>
+                <br>
+                <hr>
                 <div class="card-tags">
-                  <% product.tags.each do |tag| %>
-                    <span><i class="<%= tag %>"></i></span>
-                  <% end %>
+                  <p><strong>Tools used:</strong> <% product.tags.each do |tag| %>
+                      <span><i class="<%= tag %>"></i></span>
+                    <% end %></p>
                 </div>
-                <% link_to product.url, class: 'external-link', target: '_blank' do %>
-                  <i class="fas fa-external-link-alt"></i>
+                <p><strong>Link to the website:</strong> <% link_to product.url, class: 'external-link', target: '_blank' do %>
+                    <i class="fas fa-external-link-alt"></i></p>
                 <% end %>
+                <p><strong>Timeline:</strong> <%= product.timeline %></p>
               </div>
             </div>
           </div>
