@@ -5,8 +5,7 @@
 
 // External libraries
 // Using CDN for font-awesome
-@import 'bootstrap/scss/bootstrap';
-
+@import "bootstrap/scss/bootstrap";
 
 // Your CSS partials
 @import "components/index";
@@ -23,24 +22,20 @@ html {
 
 body {
   // background-color:  #F8DDEB;
-  background-color:  #FFF4ED;
+  background-color: #fff4ed;
   //  background-image: url('/assets/images/fabric.png');
 }
-
 
 iframe {
   width: 100%;
   min-height: 400px;
 }
 
-
-
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
   }
-
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
@@ -50,22 +45,23 @@ iframe {
 }
 @media (max-width: 767px) {
   /* For a screen < 540px, this CSS will be read */
-.card-container {
-  flex-direction: column;
-}
-.text {
-  padding-left: 0;
-  padding-top: 2rem;
-}
-.pro {
-  flex-wrap: wrap;
-  justify-content: center;
-h5, p {
-  text-align: center;
-}
-}
-.pic {
-  width: 100%;
-  height: 100%;
-}
+  .card-container {
+    flex-direction: column;
+  }
+  .text {
+    padding-left: 0;
+    padding-top: 2rem;
+  }
+  .pro {
+    flex-wrap: wrap;
+    justify-content: center;
+    h5,
+    p {
+      text-align: center;
+    }
+  }
+  .pic {
+    width: 100%;
+    height: 100%;
+  }
 }
