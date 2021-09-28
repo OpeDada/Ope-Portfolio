@@ -21,9 +21,12 @@ html {
 }
 
 body {
-  // background-color:  #F8DDEB;
-  background-color: #fff4ed;
-  //  background-image: url('/assets/images/fabric.png');
+  // background-color: #f7f2ef;
+    //  background: linear-gradient(90deg, #360033 30%, #0b8793 100%);
+
+  //  background-ixmage: url('/assets/images/fabric.png');
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNIR_ddGBAdmGbadfDqTfSPus6ZvFlE8B1fA&usqp=CAU");
+
 }
 
 iframe {
@@ -36,6 +39,7 @@ iframe {
   .container {
     width: 700px;
   }
+
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
@@ -64,4 +68,10 @@ iframe {
     width: 100%;
     height: 100%;
   }
+  .tabs-underlined .tab-underlined {
+   padding: 4px;
+   margin: 8px 8px;
+
+  }
+
 }
