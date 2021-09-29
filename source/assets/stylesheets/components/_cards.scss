@@ -4,27 +4,26 @@
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  margin: 32px;
+  margin: 2rem;
   border-radius: 0px 32px;
 
   .text {
     font-size: 18px;
-    color: #1c1836;
+    color: #1c1836da;
   }
 }
 
-
 h2 {
-  font-weight: bolder;
+  font: "Montserrat", "Helvetica", "sans-serif";
+  font-size: 2rem;
   color: #360036;
-  padding: 3px;
+  padding: 0.2rem;
   text-align: center;
-  margin-top: 68px;
+  margin-top: 4rem;
 }
 
-
 .text {
-  padding-left: 16px;
+  padding-left: 2rem;;
 }
 
 .navigation-button-footer {
@@ -44,4 +43,30 @@ h2 {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+footer .copyright {
+    font-size: 0.8em;
+    padding: 0;
+    text-align: center;
+}
+
+button{
+  border: 2px solid #630910;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.2rem 0.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  transition: all 0.4s ease 0s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+
+    &:hover{
+      color: #EDE1E2;
+      box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+      }
+}
+.button-link {
+  color: #1c1836;
 }

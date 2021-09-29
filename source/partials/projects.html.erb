@@ -1,5 +1,5 @@
 <div id="projects">
-  <h2>Projects</h2>
+  <h2>PROJECTS</h2>
   <div class="card-container" style="padding: 32px;">
     <ul class="nav tabs-underlined" id="myTab" role="tablist">
       <% data.products.each_with_index do |product, index| %>
@@ -21,18 +21,24 @@
               <h5><strong>Role:</strong> <%= product.role %></h5>
               <p><%= product.description %></p>
               <br>
-              <hr>
-              <br>
-              <div class="card-tags">
+              <p><strong>Timeline:</strong> <%= product.timeline %></p>
+               <div class="card-tags">
                 <p><strong>Tools used:</strong> <% product.tags.each do |tag| %>
                     <span><i class="<%= tag %>"></i></span>
                   <% end %></p>
               </div>
-              <p><strong>Link to the website:</strong> <% link_to product.url, class: 'external-link', target: '_blank' do %>
-                  <i class="fas fa-external-link-alt"></i></p>
+              <hr>
+              <div class="pro-buttons">
+              <button><% link_to product.url, target: '_blank', class: 'button-link', style: 'text-decoration: none;' do %>
+                  Try Demo <i class="fas fa-external-link-alt" ></i>
               <% end %>
-              <p><strong>Timeline:</strong> <%= product.timeline %></p>
-            </div>
+              </button>
+              <button><% link_to product.github, target: '_blank', class: 'button-link', style: 'text-decoration: none;' do %>
+                 View Code  <i class="fab fa-github"></i>
+              <% end %>
+              </button>
+              </div>
+              </div>
           </div>
         </div>
       <% end %>
