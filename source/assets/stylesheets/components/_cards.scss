@@ -1,6 +1,5 @@
 .card-container {
   background-color: #fffefe;
-  border-radius: 5px;
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -54,7 +53,8 @@ footer .copyright {
 button{
   border: 2px solid #630910;
   background-color: white;
-  border-radius: 1rem;
+  border-radius: 0px 8px;
+  margin: 0.5rem;
   padding: 0.2rem 0.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
@@ -63,10 +63,14 @@ button{
   transition-duration: 0.2s;
 
     &:hover{
-      color: #1c1836da;
       box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
       }
 }
 .button-link {
-  color: #1c1836;
+    color: #1c1836da;
+
+  &:hover{
+
+      color: #1c1836;
+  }
 }
