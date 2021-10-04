@@ -47,8 +47,20 @@ iframe {
     width: 500px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 650px) {
   /* For a screen < 540px, this CSS will be read */
+  .title-main{
+    font-size: 3rem;
+  }
+
+  .banner h3 {
+    font-size: 1.5rem;
+  }
+
+  .navigation-button {
+  padding: 1rem;
+}
+
   .card-container {
     flex-direction: column;
   }
