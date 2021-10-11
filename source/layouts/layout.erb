@@ -2,21 +2,16 @@
 <html>
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-M8JRD5B');</script>
-<!-- End Google Tag Manager -->
-    <%# <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168920723-1"></script>
+
+ <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-M8JRD5B"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'UA-168920723-1');
-    </script> %>
+      gtag('config', 'GTM-M8JRD5B');
+    </script>
+
     <meta charset="utf-8">
     <meta name=”description” content="Full-Stack Developer, based in Tokyo, Japan">
     <meta name=”keywords” content="Opemipo Dada, developer, Full stack, Ruby on Rails, RoR, HTML, CSS, JavaScript">
@@ -27,7 +22,8 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Opemipo Dada" %></title>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <%# <%= display_meta_tags %>
+    <%= display_meta_tags %>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <%= stylesheet_link_tag "app" %>

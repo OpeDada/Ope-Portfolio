@@ -25,6 +25,9 @@ activate :external_pipeline,
          source: 'dist',
          latency: 1
 
+activate :metaman, host: 'https://opedada.me/'
+activate :meta_tags
+
 page '/*.xml',  layout: false
 page '/*.json', layout: false
 page '/*.txt',  layout: false
