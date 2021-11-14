@@ -14,6 +14,23 @@
     - devicon-github-original colored
   timeline: Two weeks
 
+- name: Beadaut Blog
+  role: Lead Developer
+  description: A blog app built with Next.js for Beadaut, an online learning platform targeted towards course creators. This blog site is an offset from the main app, and it includes a list of blog posts and feature updates from the company.
+  image: bead-figgg.jpg
+  url: https://blog.beadaut.com/
+  github: https://github.com/OpeDada/beadaut-blog
+  tags:
+    - devicon-nextjs-original colored
+    - devicon-react-original colored
+    - devicon-bootstrap-plain colored
+    - devicon-javascript-plain colored
+    - devicon-css3-plain colored
+    - devicon-github-original colored
+    - devicon-git-plain colored
+    - devicon-amazonwebservices-original colored
+  timeline: Two weeks
+
 - name: Fam Finder
   role: Project Manager
   description: A rental service app clone of Airbnb marketplace where people can offer their services as a family member for rent, hence there is a renter and a rentee. The aim of the app is to give users an online platform to find, connect with, and hire people as various family roles for different events.
