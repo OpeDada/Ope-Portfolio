@@ -22,11 +22,10 @@ html {
 
 body {
   // background-color: #f7f2ef;
-    //  background: linear-gradient(90deg, #360033 30%, #0b8793 100%);
+  //  background: linear-gradient(90deg, #360033 30%, #0b8793 100%);
 
   //  background-ixmage: url('/assets/images/fabric.png');
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNIR_ddGBAdmGbadfDqTfSPus6ZvFlE8B1fA&usqp=CAU");
-
 }
 
 iframe {
@@ -39,7 +38,6 @@ iframe {
   .container {
     width: 700px;
   }
-
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
@@ -47,9 +45,9 @@ iframe {
     width: 500px;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   /* For a screen < 540px, this CSS will be read */
-  .title-main{
+  .title-main {
     font-size: 3rem;
   }
 
@@ -58,8 +56,8 @@ iframe {
   }
 
   .navigation-button {
-  padding: 1rem;
-}
+    padding: 1rem;
+  }
 
   .card-container {
     flex-direction: column;
@@ -78,17 +76,15 @@ iframe {
     }
   }
   .pic {
-    width: 100%;
-    height: 100%;
+    width: 80vw;
+    // height: 50%;
   }
   .tabs-underlined .tab-underlined {
-   padding: 4px;
-   margin: 8px 8px;
-
+    padding: 4px;
+    margin: 8px 8px;
   }
-  .pro-buttons{
-  display: grid;
-  justify-content: center;
-}
-
+  .pro-buttons {
+    display: grid;
+    justify-content: center;
+  }
 }
