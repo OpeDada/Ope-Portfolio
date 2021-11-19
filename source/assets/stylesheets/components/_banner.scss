@@ -11,17 +11,18 @@
     text-shadow: 1px 1px 2px black, 0 0 25px #f72585, 0 0 5px darkslateblue;
     position: relative;
     animation: mymove 2s;
-
   }
   @keyframes mymove {
-  from {right: 100px;}
-  to {right: 0px;}
-
+    from {
+      right: 100px;
+    }
+    to {
+      right: 0px;
+    }
+  }
 }
-}
 
-
-.banner:after {
+.banner:before {
   content: "";
   background-image: url("/assets/images/work7.jpg");
   background-position: center;
@@ -50,7 +51,6 @@
     margin: 0.25em auto 0 auto;
     position: relative;
     width: 4em;
-
   }
 }
 
@@ -69,7 +69,6 @@
     opacity: 0.7;
     transition: transform 0.2s;
     transform: scale(1.1);
-
   }
 }
 
