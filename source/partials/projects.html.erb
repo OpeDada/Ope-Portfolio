@@ -22,7 +22,7 @@
               <p><%= product.description %></p>
               <br>
               <p><strong>Timeline:</strong> <%= product.timeline %></p>
-               <div class="card-tags">
+              <div class="card-tags">
                 <p><strong>Tools used:</strong> <% product.tags.each do |tag| %>
                     <span><i class="<%= tag %>"></i></span>
                   <% end %></p>
@@ -34,7 +34,7 @@
               <% end %>
               </button>
               <button><% link_to product.github, target: '_blank', class: 'button-link', style: 'text-decoration: none;' do %>
-                 View Code  <i class="fab fa-github"></i>
+                View Code  <i class="fab fa-github"></i>
               <% end %>
               </button>
               </div>
