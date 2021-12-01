@@ -83,6 +83,9 @@
 .section__title {
   margin-bottom: 0.25em;
 }
+.section__title--intro {
+  font-weight: var(--fw-reg);
+}
 
 .section__title--intro strong {
   display: block;
@@ -90,10 +93,21 @@
 
 .section__subtitle {
   margin: 0;
-  // font-size:
+  font-size: var(--fs-h3);
 }
 
 .section__subtitle--intro,
 .section__subtitle--about {
   background: #16e0bd;
+  padding: 0.25em 1em;
+  font-family: var(--ff-secondary);
+  margin-bottom: 1em;
+}
+
+.intro {
+  position: relative;
+}
+
+.intro__img {
+  box-shadow: var(--bs);
 }
