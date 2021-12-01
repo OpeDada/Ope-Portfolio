@@ -79,3 +79,21 @@
   right: 0;
   bottom: 0;
 }
+
+.section__title {
+  margin-bottom: 0.25em;
+}
+
+.section__title--intro strong {
+  display: block;
+}
+
+.section__subtitle {
+  margin: 0;
+  // font-size:
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+  background: #16e0bd;
+}
