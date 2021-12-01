@@ -1,31 +1,20 @@
-<div id="about">
-  <h2>ABOUT</h2>
-  <div class="card-container d-flex" style="padding: 32px">
-    <%= image_tag "profile.jpeg", alt: "alttext", class: 'avatar-bordered' %>
-    <div class="text">
-      <p>Hello ✋🏽, I'm <strong>Ope</strong>, a full stack web developer based in Tokyo, Japan.
-      Originally from Nigeria, I have a carrer background in Logistics and Business Development.
-        I'm currently open to work opportunities in web development or collaborations on small projects.
-        When I'm not coding, you can find me dancing, listening to music or watching movies. </p>
-      <div class="pro-buttons">
-      <button><a href="assets/Opemipo Dada CV.pdf" target="_blank" class="button-link" style="text-decoration: none">Résumé</a></button>
-      <button><a href="https://medium.com/@opedada_79780" target="_blank" class="button-link" style="text-decoration: none">My Blog</a></button>
-    </div>
-    </div>
-  </div>
-</div>
-
 <section class="about me" id="about">
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <%# <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> %>
       <h2 class="section__title section__title--about">Who I am</h2>
         <p class="section__subtitle section__subtitle--about">Full stack web developer based in Tokyo, Japan</p>
           <div class="about-me__body">
-          <p></p>
 
       </p>Originally from Nigeria, I have a carrer background in Logistics and Business Development.
         I'm currently open to work opportunities in web development or collaborations on small projects.
         When I'm not coding, you can find me dancing, listening to music or watching movies. </p>
 
           </div>
+    <%# </div> %>
+        <%= image_tag "profile.jpeg", alt: "alttext",  class:"about-me__img" %>
+
+
+      <div class="pro-buttons">
+      <button><a href="assets/Opemipo Dada CV.pdf" target="_blank" class="button-link" style="text-decoration: none">Résumé</a></button>
+      <button><a href="https://medium.com/@opedada_79780" target="_blank" class="button-link" style="text-decoration: none">My Blog</a></button>
     </div>
 </section>

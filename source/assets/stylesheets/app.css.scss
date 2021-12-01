@@ -35,7 +35,7 @@ html {
 
   --clr-light: #fff;
   --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-accent: #ede0e2;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -91,6 +91,15 @@ h3 {
   font-size: var(--fs-h3);
 }
 
+h2::after {
+  content: "";
+  display: block;
+  width: 3em;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  background: currentColor;
+  opacity: 0.25;
+}
 @media (min-width: 800px) {
   :root {
     --fs-h1: 4.5rem;
