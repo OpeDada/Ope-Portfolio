@@ -1,6 +1,16 @@
+// .navbar {
+//   position: fixed;
+//   // top: 0;
+//   // bottom: 0;
+//   // left: 0;
+//   // right: 0;
+//   // z-index: 100;
+// }
+
 .navbar-lewagon {
   justify-content: space-between;
-  background: #EDE1E2;
+  background: #ede1e2;
+  position: sticky;
 }
 
 .navbar-lewagon .navbar-collapse {
