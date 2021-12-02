@@ -1,20 +1,12 @@
-.navbar {
-  position: fixed;
-  background: var(--clr-dark);
-  color: var(--clr-light);
+.navbar-lewagon {
+  justify-content: space-between;
+  background: #ede1e2;
+  position: sticky;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 100;
-  transform: translateX(0%);
-  transition: transform 250ms cubic-bezier(0.5, 0, 0.5, 1);
-}
-
-.navbar-lewagon {
-  justify-content: space-between;
-  background: #ede1e2;
-  position: sticky;
 }
 
 .navbar-lewagon .navbar-collapse {
