@@ -220,7 +220,11 @@ h2::after {
     margin: 8px 8px;
   }
   .pro-buttons {
-    display: grid;
+    display: flex;
     justify-content: center;
+  }
+
+  .button-link {
+    font-size: medium;
   }
 }
