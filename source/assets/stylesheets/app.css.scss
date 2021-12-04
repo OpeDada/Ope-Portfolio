@@ -60,7 +60,7 @@ body {
 }
 
 section {
-  padding: 5em 2em;
+  padding: 6em 2em;
 }
 
 img {
@@ -150,6 +150,7 @@ h2::after {
 
   .section__title--about {
     grid-area: title;
+    margin-left: 12rem;
   }
 
   .section__subtitle--about {
