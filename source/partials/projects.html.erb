@@ -10,7 +10,7 @@
     </ul>
     <div class="tab-content" id="myTabContent">
       <% data.products.each_with_index do |product, index| %>
-        <div class="tab-pane fade py-3 <%= "show active" if index.zero?  %>" id="content-<%= index %>" role="tabpanel" aria-labelledby="home-tab">
+        <div class="tab-pane fade <%= "show active" if index.zero?  %>" id="content-<%= index %>" role="tabpanel" aria-labelledby="home-tab">
           <div class="pro d-flex">
             <% if index.zero? %>
               <%= partial 'partials/carouselss' %>
@@ -45,3 +45,4 @@
     </div>
   </div>
 </div>
+<%# <div class="divider div-transparent div-dot"></div> %>
