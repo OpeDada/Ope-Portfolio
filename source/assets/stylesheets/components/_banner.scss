@@ -1,90 +1,9 @@
-.banner {
-  height: 100vh;
-  color: #ffffff;
-  justify-content: center;
-  font-size: 15px;
-  font-weight: 500;
-  position: relative;
-  h3 {
-    text-align: center;
-    margin-top: 1.5rem;
-    text-shadow: 1px 1px 2px black, 0 0 25px #f72585, 0 0 5px darkslateblue;
-    position: relative;
-    animation: mymove 2s;
-  }
-  @keyframes mymove {
-    from {
-      right: 100px;
-    }
-    to {
-      right: 0px;
-    }
-  }
-}
-
-.banner:before {
-  content: "";
-  background-image: url("/assets/images/work7.jpg");
-  background-position: center;
-  background-size: cover;
-  filter: brightness(60%);
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-.title-main {
-  margin: 0 auto;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 4.5rem;
-  text-shadow: 1px 1px 2px black, 0 0 25px #f72585, 0 0 5px darkslateblue;
-
-  &:after {
-    background: #dddddd;
-    content: "";
-    display: block;
-    height: 2px;
-    margin: 0.25em auto 0 auto;
-    position: relative;
-    width: 4em;
-  }
-}
-
-.navigation-button {
-  padding: 0 2rem;
-  position: relative;
-  font-size: 20px;
-  margin-top: 3rem;
-  color: white;
-  text-shadow: 1px 1px 2px black;
-  background-color: #00000050;
-  border: 2px solid #00000040;
-  padding: 2rem;
-
-  &:hover {
-    opacity: 0.7;
-    transition: transform 0.2s;
-    transform: scale(1.1);
-  }
-}
-
-.navigation-button-link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
 .section__title {
   margin-bottom: 0.25em;
 }
 .section__title--intro {
   font-weight: var(--fw-reg);
+  line-height: 1.2;
 }
 
 .section__title--intro strong {
@@ -96,12 +15,29 @@
   font-size: var(--fs-h3);
 }
 
+.section__subtitle--intro {
+  animation: example linear 3s alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes example {
+  0% {
+    background-color: #dbb1b8;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+}
 .section__subtitle--intro,
 .section__subtitle--about {
   background: #ede0e2;
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 .intro {
