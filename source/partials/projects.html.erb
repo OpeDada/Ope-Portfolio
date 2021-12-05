@@ -1,6 +1,6 @@
 <div id="projects">
   <h2>PROJECTS</h2>
-  <div class="card-container" style="padding: 32px;">
+  <div class="card-container" style="padding: 24px;">
     <ul class="nav tabs-underlined" id="myTab" role="tablist">
       <% data.products.each_with_index do |product, index| %>
         <li class="nav-item" role="presentation">
@@ -10,7 +10,7 @@
     </ul>
     <div class="tab-content" id="myTabContent">
       <% data.products.each_with_index do |product, index| %>
-        <div class="tab-pane fade py-3 <%= "show active" if index.zero?  %>" id="content-<%= index %>" role="tabpanel" aria-labelledby="home-tab">
+        <div class="tab-pane fade <%= "show active" if index.zero?  %>" id="content-<%= index %>" role="tabpanel" aria-labelledby="home-tab">
           <div class="pro d-flex">
             <% if index.zero? %>
               <%= partial 'partials/carouselss' %>
@@ -22,7 +22,7 @@
               <p><%= product.description %></p>
               <br>
               <p><strong>Timeline:</strong> <%= product.timeline %></p>
-               <div class="card-tags">
+              <div class="card-tags">
                 <p><strong>Tools used:</strong> <% product.tags.each do |tag| %>
                     <span><i class="<%= tag %>"></i></span>
                   <% end %></p>
@@ -34,7 +34,7 @@
               <% end %>
               </button>
               <button><% link_to product.github, target: '_blank', class: 'button-link', style: 'text-decoration: none;' do %>
-                 View Code  <i class="fab fa-github"></i>
+                View Code  <i class="fab fa-github"></i>
               <% end %>
               </button>
               </div>
@@ -45,3 +45,4 @@
     </div>
   </div>
 </div>
+<%# <div class="divider div-transparent div-dot"></div> %>
