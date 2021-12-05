@@ -50,7 +50,7 @@ body {
   // background-color: #f7f2ef;
   //  background: linear-gradient(90deg, #360033 30%, #0b8793 100%);
 
-  background-image: url("/assets/images/fabric.png");
+  // background-image: url("/assets/images/fabric.png");
   // background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNIR_ddGBAdmGbadfDqTfSPus6ZvFlE8B1fA&usqp=CAU");
   background: var(--clr-light);
   color: var(--clr-dark);
@@ -137,7 +137,7 @@ h2::after {
     position: relative;
     left: -1.5em;
     width: calc(100% + 1.5em);
-    font-size: xx-large;
+    font-size: 1.7rem;
   }
 
   .about-me {
@@ -163,7 +163,7 @@ h2::after {
     width: calc(100% + 2em);
     padding-left: 1em;
     padding-right: calc(200px + 4em);
-    font-size: larger;
+    font-size: 1.3rem;
   }
 
   .about-me__img {
