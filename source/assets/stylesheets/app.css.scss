@@ -50,7 +50,7 @@ body {
   // background-color: #f7f2ef;
   //  background: linear-gradient(90deg, #360033 30%, #0b8793 100%);
 
-  //  background-image: url('/assets/images/fabric.png');
+  background-image: url("/assets/images/fabric.png");
   // background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNIR_ddGBAdmGbadfDqTfSPus6ZvFlE8B1fA&usqp=CAU");
   background: var(--clr-light);
   color: var(--clr-dark);
@@ -60,7 +60,7 @@ body {
 }
 
 section {
-  padding: 6em 2em;
+  padding: 4em 2em;
 }
 
 img {
@@ -123,9 +123,10 @@ h2::after {
 
   .intro__img {
     grid-area: img;
-    min-width: 250px;
+    min-width: 300px;
     position: relative;
     z-index: 2;
+    border-radius: 16px;
   }
 
   .section__subtitle--intro {
@@ -140,7 +141,7 @@ h2::after {
 
   .about-me {
     display: grid;
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 1fr 280px;
     grid-template-areas:
       "title img"
       "subtitle img"
@@ -150,7 +151,7 @@ h2::after {
 
   .section__title--about {
     grid-area: title;
-    margin-left: 12rem;
+    margin-left: 20rem;
   }
 
   .section__subtitle--about {
@@ -167,6 +168,7 @@ h2::after {
     grid-area: img;
     position: relative;
     z-index: 2;
+    min-width: 280px;
   }
 }
 
@@ -184,20 +186,13 @@ h2::after {
 }
 @media (max-width: 800px) {
   /* For a screen < 540px, this CSS will be read */
-  .title-main {
-    font-size: 3rem;
-  }
-
-  .banner h3 {
-    font-size: 1.5rem;
-  }
-
   .navigation-button {
     padding: 1rem;
   }
 
   .card-container {
     flex-direction: column;
+    margin: 2rem;
   }
   .text {
     padding-left: 0;
