@@ -1,19 +1,3 @@
-- name: Safe Spaces
-  role: Front End Developer
-  description: A web app designed for a community of women to support each other. It connects women walking home alone at night with female homeowners who have voluntered their place as a safe space, should they feel unsafe. Designed with mobile use in mind, the app has a primary focus on communication and the leveraging of the Mapbox API. Kindly feel free to sign up and have a look around.
-  url: https://www.safespacesjp.com/
-  github: https://github.com/akiwidev/safe-spaces
-  tags:
-    - devicon-rails-plain-wordmark colored
-    - devicon-postgresql-plain-wordmark colored
-    - devicon-heroku-original colored
-    - devicon-javascript-plain colored
-    - devicon-css3-plain colored
-    - devicon-html5-plain colored
-    - devicon-trello-plain colored
-    - devicon-github-original colored
-  timeline: Two weeks
-
 - name: Beadaut Blog
   role: Lead Developer
   description: A blog app built with Next.js for Beadaut, an online learning platform targeted towards course creators. This blog site is an offset from the main app, and it includes a list of blog posts and feature updates from the company.
@@ -29,7 +13,6 @@
     - devicon-github-original colored
     - devicon-git-plain colored
     - devicon-amazonwebservices-original colored
-  timeline: Two weeks
 
 - name: Fam Finder
   role: Project Manager
@@ -45,7 +28,21 @@
     - devicon-css3-plain colored
     - devicon-html5-plain colored
     - devicon-github-original colored
-  timeline: One week
+
+- name: Safe Spaces
+  role: Front End Developer
+  description: A web app designed for a community of women to support each other. It connects women walking home alone at night with female homeowners who have voluntered their place as a safe space, should they feel unsafe. Designed with mobile use in mind, the app has a primary focus on communication and the leveraging of the Mapbox API. Kindly feel free to sign up and have a look around.
+  url: https://www.safespacesjp.com/
+  github: https://github.com/akiwidev/safe-spaces
+  tags:
+    - devicon-rails-plain-wordmark colored
+    - devicon-postgresql-plain-wordmark colored
+    - devicon-heroku-original colored
+    - devicon-javascript-plain colored
+    - devicon-css3-plain colored
+    - devicon-html5-plain colored
+    - devicon-trello-plain colored
+    - devicon-github-original colored
 
 - name: Playlist
   role: Lead Developer
@@ -59,4 +56,16 @@
     - devicon-css3-plain colored
     - devicon-html5-plain colored
     - devicon-github-original colored
-  timeline: Two days
+
+# - name: Playlist
+#   role: Lead Developer
+#   description: A rails app built as a personal project where a user can create a playlist and add music to the playlist.
+#   image: playfig.png
+#   url: https://music-playlist-app.herokuapp.com/
+#   github: https://github.com/OpeDada/rails-playlist-app
+#   tags:
+#     - devicon-rails-plain-wordmark colored
+#     - devicon-postgresql-plain-wordmark colored
+#     - devicon-css3-plain colored
+#     - devicon-html5-plain colored
+#     - devicon-github-original colored
