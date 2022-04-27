@@ -13,6 +13,7 @@
     - devicon-github-original colored
     - devicon-git-plain colored
     - devicon-amazonwebservices-original colored
+  timeline: Two weeks
 
 - name: Fam Finder
   role: Project Manager
@@ -28,6 +29,7 @@
     - devicon-css3-plain colored
     - devicon-html5-plain colored
     - devicon-github-original colored
+  timeline: One week
 
 - name: Safe Spaces
   role: Front End Developer
@@ -43,6 +45,7 @@
     - devicon-html5-plain colored
     - devicon-trello-plain colored
     - devicon-github-original colored
+  timeline: Two weeks
 
 - name: Playlist
   role: Lead Developer
@@ -56,16 +59,4 @@
     - devicon-css3-plain colored
     - devicon-html5-plain colored
     - devicon-github-original colored
-
-# - name: Playlist
-#   role: Lead Developer
-#   description: A rails app built as a personal project where a user can create a playlist and add music to the playlist.
-#   image: playfig.png
-#   url: https://music-playlist-app.herokuapp.com/
-#   github: https://github.com/OpeDada/rails-playlist-app
-#   tags:
-#     - devicon-rails-plain-wordmark colored
-#     - devicon-postgresql-plain-wordmark colored
-#     - devicon-css3-plain colored
-#     - devicon-html5-plain colored
-#     - devicon-github-original colored
+  timeline: Two days

@@ -8,7 +8,7 @@
         <%# " role="tabpanel" aria-labelledby="home-tab"> %>
           <div class="pro d-flex">
             <%= product.name %>
-            <% if index.zero? %>
+            <% if index == 2 %>
               <%= partial 'partials/carouselss' %>
             <% else %>
               <%= image_tag product.image, class: "pic" %>
