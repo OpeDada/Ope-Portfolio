@@ -7,6 +7,7 @@ gem 'middleman-metaman'
 gem 'middleman-meta-tags'
 gem 'rake'
 gem 'rubocop'
+gem 'middleman-sprockets', '~> 4.0.0.rc.1' 
 
 gem 'font-awesome-sass', '~> 5.13.0'
 
