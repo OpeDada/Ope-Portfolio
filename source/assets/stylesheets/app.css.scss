@@ -172,6 +172,23 @@ h2::after {
     z-index: 2;
     min-width: 280px;
   }
+
+  .all-projects {
+    padding: 4em 8em 0 8em;
+
+    .text {
+      font-size: 18px;
+      color: #1c1836da;
+      margin-top: 24px;
+    }
+  }
+
+  .other-projects {
+    position: relative;
+    bottom: 110px;
+    left: 700px;
+    border-radius: 8px;
+  }
 }
 
 @media (max-width: 600px) {
