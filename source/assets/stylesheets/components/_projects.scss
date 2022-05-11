@@ -1,14 +1,28 @@
 .pic {
   width: 50%;
-
   object-fit: contain;
   // z-index: 1;
 }
 
-// .my-services {
-//   background-color: var(--clr-dark);
-//   background-image: url(../img/services-bg.jpg);
-//   background-size: cover;
-//   background-blend-mode: multiply;
-//   color: var(--clr-light);
-// }
+.all-projects {
+  padding: 2em 4em 0 4em;
+
+  .text {
+    color: #1c1836da;
+    margin-top: 12px;
+  }
+}
+
+.project-title {
+  color: #1c1836da;
+  margin-bottom: 16px;
+}
+
+.other-projects {
+  position: relative;
+  bottom: 100px;
+  left: 103px;
+  border-radius: 2px;
+  border-bottom-width: thick;
+  
+}
