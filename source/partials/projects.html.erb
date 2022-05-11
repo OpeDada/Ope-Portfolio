@@ -1,13 +1,10 @@
 <div id="projects">
   <h2>PROJECTS</h2>
-  <div class="card-container" style="padding: 24px;">
+  <div class="all-projects">
     <div class="">
       <% data.products.each_with_index do |product, index| %>
-        <%# <div class="tab-pane fade <%= "show active" if index.zero?  %>
-        <%# " id="content-<%= index %>
-        <%# " role="tabpanel" aria-labelledby="home-tab"> %>
+            <h4 class="project-title"><%= product.name %></h4>
           <div class="pro d-flex">
-            <%= product.name %>
             <% if index == 2 %>
               <%= partial 'partials/carouselss' %>
             <% else %>
@@ -17,13 +14,11 @@
               <h5><strong>Role:</strong> <%= product.role %></h5>
               <p><%= product.description %></p>
               <br>
-              <p><strong>Timeline:</strong> <%= product.timeline %></p>
               <div class="card-tags">
                 <p><strong>Tools used:</strong> <% product.tags.each do |tag| %>
                     <span><i class="<%= tag %>"></i></span>
                   <% end %></p>
               </div>
-              <hr>
               <div class="pro-buttons">
               <button><% link_to product.url, target: '_blank', class: 'button-link', style: 'text-decoration: none;' do %>
                   Website <i class="fas fa-external-link-alt" ></i>
@@ -36,8 +31,13 @@
               </div>
               </div>
           </div>
-        <%# </div> %>
+          <br>
+          <br>
+          <hr>
+          <br>
+          <br>
       <% end %>
     </div>
   </div>
 </div>
+<%# <button class="other-projects"><a href="" style="color: #1c1836da; text-decoration: none"> Other Projects >> </a></button> %>
