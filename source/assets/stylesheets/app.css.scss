@@ -174,7 +174,7 @@ h2::after {
   }
 
   .all-projects {
-    padding: 4em 8em 0 8em;
+    // padding: 4em 8em 0 8em;
 
     .text {
       font-size: 18px;
@@ -246,5 +246,11 @@ h2::after {
 
   .button-link {
     font-size: medium;
+  }
+}
+
+@media (max-width: 1180px) {
+  .all-projects {
+    padding: 2em 2em 0 2em;
   }
 }
