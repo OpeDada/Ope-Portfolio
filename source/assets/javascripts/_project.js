@@ -36,7 +36,3 @@ function checkSlide(e) {
 }
 
 window.addEventListener("scroll", debounce(checkSlide));
-
-window.addEventListener("turbolinks:load", () => {
-  alert("page has loaded!");
-});
