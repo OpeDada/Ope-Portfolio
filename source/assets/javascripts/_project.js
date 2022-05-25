@@ -36,3 +36,10 @@ function checkSlide(e) {
 }
 
 window.addEventListener("scroll", debounce(checkSlide));
+
+const color = ["#ede1e2", "#B394B3", "#EF80BD", "#DB949C"];
+
+document.querySelector(".navbar").addEventListener("mouseover", function () {
+  document.querySelector(".navbar").style.background =
+    color[Math.floor(Math.random() * color.length)];
+});
