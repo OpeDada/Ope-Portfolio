@@ -1,3 +1,7 @@
+<img width="1432" alt="Screenshot 2022-11-24 at 11 31 28 PM" src="https://user-images.githubusercontent.com/85258317/203808868-58ce41e7-547e-49e4-b146-6696d37a8a91.png">
+
+
+
 # Middleman Boilerplate
 
 A simple way to build static pages with a Rails feel.
