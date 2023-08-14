@@ -20,10 +20,12 @@
                   <% end %></p>
               </div>
               <div class="pro-buttons">
-              <%# <button><% link_to product.url, target: '_blank', class: 'button-link', style: 'text-decoration: none;' do %>
-                  <%# Website <i class="fas fa-external-link-alt" ></i> %>
-              <%# <% end %>
-              <%# </button> %>
+              <% if index == 0 %>
+              <button><% link_to product.url, target: '_blank', class: 'button-link', style: 'text-decoration: none;' do %>
+                  Website <i class="fas fa-external-link-alt" ></i>
+              <% end %>
+              </button>
+              <% end %>
               <button><% link_to product.github, target: '_blank', class: 'button-link', style: 'text-decoration: none;' do %>
                 View Code  <i class="fab fa-github"></i>
               <% end %>
