@@ -1,7 +1,7 @@
 - name: 1. Beadaut Blog
   role: Lead Developer
   description: A blog app built with Next.js for Beadaut, an online learning platform targeted towards course creators. This blog site includes a list of blog posts and feature updates from the company.
-  image: bead-figgg.jpg
+  image: p1.png
   url: https://beadaut.com/blog-list
   github: https://github.com/OpeDada/beadaut-blog
   tags:
