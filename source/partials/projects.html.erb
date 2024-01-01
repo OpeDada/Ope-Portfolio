@@ -5,7 +5,7 @@
       <% data.products.each_with_index do |product, index| %>
             <h4 class="project-title"><%= product.name %></h4>
           <div class="pro d-flex">
-            <% if index == 2 %>
+            <% if index == 3 %>
               <%= partial 'partials/carouselss' %>
             <% else %>
               <%= image_tag product.image, class: "pic align-left slide-in" %>
@@ -20,7 +20,7 @@
                   <% end %></p>
               </div>
               <div class="pro-buttons">
-              <% if index == 0 %>
+              <% if index == 0 && if index == 1 %>
               <button><% link_to product.url, target: '_blank', class: 'button-link', style: 'text-decoration: none;' do %>
                   Website <i class="fas fa-external-link-alt" ></i>
               <% end %>

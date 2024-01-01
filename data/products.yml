@@ -14,7 +14,21 @@
     - devicon-git-plain colored
     - devicon-amazonwebservices-original colored
 
-- name: 2. Fam Finder
+- name: 2. Little Lemon
+role: Lead Developer
+description: An app about a restaurant that lists the available dishes, where users can either reserve a table or order food online.
+image: p2.png
+url: https://littlemon.netlify.app/
+github: https://github.com/OpeDada/new-little
+tags:
+    - devicon-react-original colored
+    - devicon-javascript-plain colored
+    - devicon-css3-plain colored
+    - devicon-tailwindcss-original-wordmark colored
+    - devicon-github-original colored
+    - devicon-git-plain colored
+
+- name: 3. Fam Finder
   role: Project Manager
   description: A rental service app clone of Airbnb marketplace where people can offer their services as a family member for rent, hence there is a renter and a rentee. The aim of the app is to give users an online platform to find, connect with, and hire people as various family roles for different events.
   image: Capa.jpg
@@ -29,7 +43,7 @@
     - devicon-html5-plain colored
     - devicon-github-original colored
 
-- name: 3. Safe Spaces
+- name: 4. Safe Spaces
   role: Front End Developer
   description: A web app designed for a community of women to support each other. It connects women walking home alone at night with female homeowners who have voluntered their place as a safe space, should they feel unsafe. Designed with mobile use in mind, the app has a primary focus on communication and the leveraging of the Mapbox API. Kindly feel free to sign up and have a look around.
   url: https://www.safespacesjp.com/
@@ -44,7 +58,7 @@
     - devicon-trello-plain colored
     - devicon-github-original colored
 
-- name: 4. Playlist
+- name: 5. Playlist
   role: Lead Developer
   description: A rails app built as a personal project where a user can create a playlist and add music to the playlist.
   image: playfig.png
