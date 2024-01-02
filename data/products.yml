@@ -15,18 +15,18 @@
     - devicon-amazonwebservices-original colored
 
 - name: 2. Little Lemon
-role: Lead Developer
-description: An app about a restaurant that lists the available dishes, where users can either reserve a table or order food online.
-image: p2.png
-url: https://littlemon.netlify.app/
-github: https://github.com/OpeDada/new-little
-tags:
-    - devicon-react-original colored
-    - devicon-javascript-plain colored
-    - devicon-css3-plain colored
-    - devicon-tailwindcss-original-wordmark colored
-    - devicon-github-original colored
-    - devicon-git-plain colored
+  role: Lead Developer
+  description: An app about a restaurant that lists the available dishes, where users can either reserve a table or order food online.
+  image: p2.png
+  url: https://littlemon.netlify.app/
+  github: https://github.com/OpeDada/new-little
+  tags:
+      - devicon-react-original colored
+      - devicon-javascript-plain colored
+      - devicon-css3-plain colored
+      - devicon-tailwindcss-original-wordmark colored
+      - devicon-github-original colored
+      - devicon-git-plain colored
 
 - name: 3. Fam Finder
   role: Project Manager
