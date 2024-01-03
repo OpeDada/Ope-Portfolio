@@ -20,7 +20,7 @@
                   <% end %></p>
               </div>
               <div class="pro-buttons">
-              <% if index == 0  %>
+              <% if index == 0 || index == 1 %>
               <button><% link_to product.url, target: '_blank', class: 'button-link', style: 'text-decoration: none;' do %>
                   Website <i class="fas fa-external-link-alt" ></i>
               <% end %>
